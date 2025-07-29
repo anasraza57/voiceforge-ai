@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./storage:/storage
+
+  inference:
+    build:
+      context: ./inference
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./storage:/storage
