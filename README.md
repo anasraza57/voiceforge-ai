@@ -1,4 +1,4 @@
-## 🗣️ Voice Cloner SaaS MVP (Hybrid Stack)
+## 🗣️ VoiceForge AI – TTS + Voice Cloning Platform (Hybrid Stack)
 
 This project uses Node.js (API), Python (AI inference), and React (UI-ready) with Docker for scalable TTS & cloning.
 

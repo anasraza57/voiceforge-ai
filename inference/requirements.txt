@@ -1,0 +1,9 @@
+git+https://github.com/neonbjb/tortoise-tts.git
+fastapi
+uvicorn
+python-multipart
+numpy
+scipy
+ffmpeg-python
+pydub
+soundfile

@@ -1,4 +1,3 @@
-version: "3"
 services:
   backend:
     build:
@@ -15,3 +14,4 @@ services:
       - "8000:8000"
     volumes:
       - ./storage:/storage
+      - ./outputs:/app/outputs
